@@ -1,0 +1,22 @@
+{
+  "name": "two",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "guxiaorong <guxiaorong@kuaishou.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/two.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.corp.kuaishou.com/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/two.test.js"
+  }
+}
